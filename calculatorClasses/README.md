@@ -16,18 +16,19 @@ The locked stub code in the editor consists of the following:
   * reading the inputs and passes them along with the Adder class object in the method *int multiply(inta, int b, Calculator calculator)* of the *Multiplier* class.
 - Adds headers and footers
   * Testing Addition, Sum =
-  * Testing Multiplication, Product =
+  * Testing Multiplication, Product =  
+
 ## Constraints
  	1 ≤ a, b ≤ 10^3
 
 ## Sample 
 - input:
-
+```
 5  
 2
-
+```
 - output:
-
+```
 Testing Addition  
 Adding integers: 5 2  
 Sum = 7  
@@ -35,3 +36,4 @@ Sum = 7
 Testing Multiplication  
 Adding integers: 5 5  
 Product = 10
+```
