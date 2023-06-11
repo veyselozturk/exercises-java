@@ -24,16 +24,20 @@ The locked stub code in the editor consists of the following:
 ## Sample 
 - input:
 ```
-5  
-2
+7  
+6
 ```
 - output:
 ```
-Testing Addition  
-Adding integers: 5 2  
-Sum = 7  
-  
-Testing Multiplication  
-Adding integers: 5 5  
-Product = 10
+Testing Addition
+Adding integers: 7 6
+Sum = 13
+
+Testing Multiplication
+Adding integers: 7 7
+Adding integers: 14 7
+Adding integers: 21 7
+Adding integers: 28 7
+Adding integers: 35 7
+Product = 42
 ```
