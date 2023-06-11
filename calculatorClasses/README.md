@@ -6,26 +6,17 @@ Alex wants to build two calculators as described below:
 -	The *Multiplier* calculator that returns the product of two integers via addition.
   
 In this challenge, help Alex build the calculators by writing the complete implementations of the following two classes:
--	The *Adder* class should implement the method *int add(int a, int b)* to return the sum of two integers, *a* and *b*. It should also print *Adding integers: a b* each time it is called.
--	The *Multiplier* class should implement the method *int multiply(int a, int b, Calculator calculator)* to return the result of *a x b* by repeated addition using the *Adder* class.
+1. The *Adder* class should implement the method *int add(int a, int b)* to return the sum of two integers, *a* and *b*. It should also print *Adding integers: a b* each time it is called.
+2. The *Multiplier* class should implement the method *int multiply(int a, int b, Calculator calculator)* to return the result of *a x b* by repeated addition using the *Adder* class.
 
 The locked stub code in the editor consists of the following:
--	An abstract class *Calculator* that contains an abstract method, *int add(int a, int b)*.
--	A solution class that tests the implementation of the *Adder* and the *Multiplier* classes by  
-*       creating an object of the *Adder* class.
-*       reading the inputs and passes them along with the Adder class object in the method *int multiply(inta, int b, Calculator calculator)* of the *Multiplier* class.
--	Adds headers and footers  
-*       Testing Addition, Sum =
-*       Testing Multiplication, Product =
-
-- Maddde 1
-- Madde 2
-- Madde 3
-  * Alt madde a
-  * Alt madde b
-    - Fıkra i
-    - Fıkra ii
-
+- An abstract class *Calculator* that contains an abstract method, *int add(int a, int b)*.
+- A solution class that tests the implementation of the *Adder* and the *Multiplier* classes by
+  * creating an object of the *Adder* class.
+  * reading the inputs and passes them along with the Adder class object in the method *int multiply(inta, int b, Calculator calculator)* of the *Multiplier* class.
+- Adds headers and footers
+  * Testing Addition, Sum =
+  * Testing Multiplication, Product =
 ## Constraints
  	1 ≤ a, b ≤ 10^3
 
