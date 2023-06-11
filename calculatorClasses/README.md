@@ -11,10 +11,10 @@ In this challenge, help Alex build the calculators by writing the complete imple
 
 The locked stub code in the editor consists of the following:
 -	An abstract class Calculator that contains an abstract method, int add(int a, int b).
--	A solution class that tests the implementation of the Adder and the Multiplier classes by
+-	A solution class that tests the implementation of the Adder and the Multiplier classes by  
         creating an object of the Adder class.
         reading the inputs and passes them along with the Adder class object in the method int multiply(inta, int b, Calculator calculator) of the Multiplier class.
--	Adds headers and footers
+-	Adds headers and footers  
         Testing Addition, Sum =
         Testing Multiplication, Product =
 
